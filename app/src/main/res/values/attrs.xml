@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MutableImagePicker">
+        <attr name="pickerSpacing" format="dimension" />
+        <attr name="pickerNumColumns" format="integer" />
+        <attr name="pickerPlaceHolderOne" format="reference" />
+        <attr name="pickerPlaceHolderTwo" format="reference" />
+        <attr name="pickerMaxNum" format="integer" />
+        <attr name="pickerShowAllSpan" format="boolean" />
+    </declare-styleable>
+
+</resources>
