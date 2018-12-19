@@ -9,13 +9,17 @@
         android:roundIcon="@drawable/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MutaImagePickerActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".MutaImagePickerActivity"/>
+
+        <activity android:name=".rxtest.RxTestActivity"/>
 
         <provider
             android:name="android.support.v4.content.FileProvider"
