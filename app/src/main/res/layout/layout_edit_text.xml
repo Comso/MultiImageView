@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.cosmo.library.widget.ExtensionEditText
+        android:id="@+id/extensionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:_ExtensionEditTextHasLine="true"
+        app:_ExtensionEditTextLineColor="#ff00aa"
+        app:_ExtensionEditTextHintText="请输入相关信息"
+        app:_ExtensionEditTextColor="#333333"
+        app:_ExtensionEditTextSize="16sp"
+        app:_ExtensionEditTextLeftImg="@drawable/common_password_visible_icon_gray"
+        app:_ExtensionEditTextRightImg="@drawable/common_delete_icon_gray"
+        app:_ExtensionEditTextPwdVisibleImg="@drawable/common_password_visible_icon_gray"
+        app:_ExtensionEditTextPwdType="true"
+        app:_ExtensionEditTextPwdInVisibleImg="@drawable/common_password_invisible_icon_gray"
+        />
+
+</LinearLayout>

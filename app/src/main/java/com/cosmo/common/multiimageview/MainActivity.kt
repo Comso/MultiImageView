@@ -6,6 +6,7 @@ import android.support.v7.widget.LinearLayoutManager
 import android.view.View
 import com.chad.library.adapter.base.BaseQuickAdapter
 import com.chad.library.adapter.base.listener.OnItemClickListener
+import com.cosmo.common.multiimageview.edittext.EditTextActivity
 import com.cosmo.common.multiimageview.rxtest.RxTestActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -28,11 +29,14 @@ class MainActivity: AppCompatActivity() {
                 when(p2){
                     0->{start(MutaImagePickerActivity::class)}
                     1->{start(RxTestActivity::class)}
+                    2->{start(EditTextActivity::class)}
                 }
             }
         })
         list.add("ImageSelect")
         list.add("RxTestActivity")
+        list.add("EditTextActivity")
+
         adapter.setNewData(list)
         adapter.notifyDataSetChanged()
 
