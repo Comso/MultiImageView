@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ExtensionEditText">
+        <attr name="_ExtensionEditTextHasLine" format="boolean" />
+        <attr name="_ExtensionEditTextLineColor" format="color" />
+        <attr name="_ExtensionEditTextPwdType" format="boolean" />
+        <attr name="_ExtensionEditTextLeftImg" format="reference" />
+        <attr name="_ExtensionEditTextRightImg" format="reference" />
+        <attr name="_ExtensionEditTextPwdVisibleImg" format="reference" />
+        <attr name="_ExtensionEditTextPwdInVisibleImg" format="reference" />
+        <attr name="_ExtensionEditTextHintText" format="string" />
+        <attr name="_ExtensionEditTextColor" format="color" />
+        <attr name="_ExtensionEditTextSize" format="dimension" />
+
+
+    </declare-styleable>
+
+</resources>
