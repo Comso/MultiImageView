@@ -34,6 +34,15 @@
             </meta-data>
         </provider>
 
+
+        <!-- 高德地图定位 version2.4.0 -->
+        <service android:name="com.amap.api.location.APSService" />
+
+        <!-- 发布的key -->
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="fc8306be28af6996a72052c906e1ed9a" />
+
     </application>
 
 </manifest>

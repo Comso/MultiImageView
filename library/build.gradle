@@ -36,4 +36,10 @@ dependencies {
     implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     api 'io.reactivex.rxjava2:rxjava:2.0.1'
     api 'io.reactivex.rxjava2:rxandroid:2.0.1'
+
+
+    // 高德
+    api 'com.amap.api:3dmap:6.6.0'
+    api 'com.amap.api:location:4.0.1'
+    api 'com.amap.api:search:5.5.0'
 }
